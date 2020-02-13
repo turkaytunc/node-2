@@ -2,11 +2,15 @@
   "name": "node-2",
   "version": "1.0.0",
   "description": "node app",
-  "main": "server.js",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
   },
   "author": "Turkay Tunc",
   "license": "MIT",
-  "dependencies": {}
+  "dependencies": {},
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
 }
